@@ -5,11 +5,13 @@ const Header = () => {
   return (
     <header className="flex px-[100px] h-[90px] items-center  shadow-header justify-between">
       <div>
-        <h3 className="text-xl cursor-pointer font-bold">Where in the world?</h3>
+        <h3 className="text-xl cursor-pointer font-bold">
+          Where in the world?
+        </h3>
       </div>
-      <div >
+      <div>
         <button className="flex items-center">
-          <SunIcon  className="w-10 px-2"/>
+          <SunIcon className="w-10 px-2" />
           light mode
         </button>
       </div>
